@@ -515,9 +515,6 @@
                             </state>
                             <state key="selected" image="drawer_btn_s"/>
                             <state key="highlighted" image="drawer_btn_s"/>
-                            <connections>
-                                <action selector="menuButton:" destination="-1" eventType="touchUpInside" id="58w-mS-0Ub"/>
-                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

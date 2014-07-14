@@ -8,16 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UIViewController {
-    UIView *menuDrawer;
-}
-@property (readonly, nonatomic) UISwipeGestureRecognizer *recognizer_open, *recognizer_closed;
-@property (readonly, nonatomic) int menuDrawerX, menuDrawerWidth;
+@interface HomeViewController : UIViewController
+//{
+//    UIView *menuDrawer;
+//}
+//
+//@property (readonly, nonatomic) UISwipeGestureRecognizer *recognizer_open, *recognizer_closed;
+//@property (readonly, nonatomic) int menuDrawerX, menuDrawerWidth;
+//
+//-(void)handleSwipes:(UISwipeGestureRecognizer *) sender;
+//-(void)drawerAnimation;
+//
+//- (IBAction)menuButton:(id)sender;
 
--(void)handleSwipes:(UISwipeGestureRecognizer *) sender;
--(void)drawerAnimation;
-
-
-- (IBAction)menuButton:(id)sender;
 
 @end
