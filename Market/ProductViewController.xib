@@ -15,15 +15,15 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="ez9-5x-cye">
-                    <rect key="frame" x="-40" y="0.0" width="366" height="568"/>
+                    <rect key="frame" x="0.0" y="0.0" width="366" height="568"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <subviews>
                         <imageView contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="product_page" id="8P3-Y4-44R">
-                            <rect key="frame" x="40" y="0.0" width="337" height="568"/>
+                            <rect key="frame" x="0.0" y="0.0" width="337" height="568"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         </imageView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gWq-JR-fmb">
-                            <rect key="frame" x="40" y="20" width="46" height="30"/>
+                            <rect key="frame" x="8" y="20" width="52" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -32,6 +32,10 @@
                                 <action selector="onBackButton:" destination="-1" eventType="touchUpInside" id="FYs-MD-fVU"/>
                             </connections>
                         </button>
+                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="2Km-Xy-eJX">
+                            <rect key="frame" x="259" y="223" width="39" height="37"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </pageControl>
                     </subviews>
                 </scrollView>
             </subviews>
