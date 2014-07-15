@@ -343,6 +343,9 @@
 				0F88F6A0196101FA00EC6FDD /* WishlistViewController.m in Sources */,
 				E6EF07FA19750DA10049C912 /* CommunityTableViewCell.m in Sources */,
 				E6EF07F0197503670049C912 /* CommunityViewController.m in Sources */,
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
 				0F88F6741961019D00EC6FDD /* AppDelegate.m in Sources */,
 				0F88F6701961019D00EC6FDD /* main.m in Sources */,
