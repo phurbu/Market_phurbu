@@ -36,6 +36,16 @@
                             <rect key="frame" x="259" y="223" width="39" height="37"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </pageControl>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RrV-uG-yBb">
+                            <rect key="frame" x="8" y="286" width="159" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onProfileButton:" destination="-1" eventType="touchUpInside" id="v1B-YQ-gY1"/>
+                            </connections>
+                        </button>
                     </subviews>
                 </scrollView>
             </subviews>

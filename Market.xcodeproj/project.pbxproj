@@ -33,12 +33,13 @@
 		6C77DD431974AAAB003E1D59 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C77DD411974AAAB003E1D59 /* ProfileViewController.xib */; };
 		6C77DD471974AAD2003E1D59 /* ProductViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C77DD451974AAD2003E1D59 /* ProductViewCell.m */; };
 		6C77DD481974AAD2003E1D59 /* ProductViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C77DD461974AAD2003E1D59 /* ProductViewCell.xib */; };
+		6C77DD4C1975120B003E1D59 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C77DD4A1975120B003E1D59 /* CameraViewController.m */; };
+		6C77DD4D1975120B003E1D59 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C77DD4B1975120B003E1D59 /* CameraViewController.xib */; };
+		E6548ED51975CC6900504A00 /* ProductViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6548ED41975CC6900504A00 /* ProductViewCell.xib */; };
 		E6EF07F0197503670049C912 /* CommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EF07EE197503670049C912 /* CommunityViewController.m */; };
 		E6EF07F1197503670049C912 /* CommunityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6EF07EF197503670049C912 /* CommunityViewController.xib */; };
 		E6EF07FA19750DA10049C912 /* CommunityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EF07F819750DA10049C912 /* CommunityTableViewCell.m */; };
 		E6EF07FB19750DA10049C912 /* CommunityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6EF07F919750DA10049C912 /* CommunityTableViewCell.xib */; };
-		6C77DD4C1975120B003E1D59 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C77DD4A1975120B003E1D59 /* CameraViewController.m */; };
-		6C77DD4D1975120B003E1D59 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C77DD4B1975120B003E1D59 /* CameraViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,15 +90,16 @@
 		6C77DD441974AAD2003E1D59 /* ProductViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewCell.h; sourceTree = "<group>"; };
 		6C77DD451974AAD2003E1D59 /* ProductViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewCell.m; sourceTree = "<group>"; };
 		6C77DD461974AAD2003E1D59 /* ProductViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewCell.xib; sourceTree = "<group>"; };
+		6C77DD491975120B003E1D59 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		6C77DD4A1975120B003E1D59 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		6C77DD4B1975120B003E1D59 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		E6548ED41975CC6900504A00 /* ProductViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewCell.xib; sourceTree = "<group>"; };
 		E6EF07ED197503670049C912 /* CommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityViewController.h; sourceTree = "<group>"; };
 		E6EF07EE197503670049C912 /* CommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityViewController.m; sourceTree = "<group>"; };
 		E6EF07EF197503670049C912 /* CommunityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommunityViewController.xib; sourceTree = "<group>"; };
 		E6EF07F719750DA10049C912 /* CommunityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityTableViewCell.h; sourceTree = "<group>"; };
 		E6EF07F819750DA10049C912 /* CommunityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityTableViewCell.m; sourceTree = "<group>"; };
 		E6EF07F919750DA10049C912 /* CommunityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommunityTableViewCell.xib; sourceTree = "<group>"; };
-		6C77DD491975120B003E1D59 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
-		6C77DD4A1975120B003E1D59 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
-		6C77DD4B1975120B003E1D59 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 				6C77DD411974AAAB003E1D59 /* ProfileViewController.xib */,
 				6C77DD441974AAD2003E1D59 /* ProductViewCell.h */,
 				6C77DD451974AAD2003E1D59 /* ProductViewCell.m */,
+				E6548ED41975CC6900504A00 /* ProductViewCell.xib */,
 				E6EF07ED197503670049C912 /* CommunityViewController.h */,
 				E6EF07EE197503670049C912 /* CommunityViewController.m */,
 				E6EF07EF197503670049C912 /* CommunityViewController.xib */,
@@ -308,6 +311,7 @@
 			files = (
 				6C77DD481974AAD2003E1D59 /* ProductViewCell.xib in Resources */,
 				6C77DD431974AAAB003E1D59 /* ProfileViewController.xib in Resources */,
+				E6548ED51975CC6900504A00 /* ProductViewCell.xib in Resources */,
 				0F88F66E1961019D00EC6FDD /* InfoPlist.strings in Resources */,
 				E6EF07FB19750DA10049C912 /* CommunityTableViewCell.xib in Resources */,
 				0F88F6AB196105F100EC6FDD /* NavViewController.xib in Resources */,

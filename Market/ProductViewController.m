@@ -7,9 +7,11 @@
 //
 
 #import "ProductViewController.h"
+#import "ProfileViewController.h"
 
 @interface ProductViewController ()
 - (IBAction)onBackButton:(id)sender;
+- (IBAction)onProfileButton:(id)sender;
 
 @end
 
@@ -39,5 +41,10 @@
 - (IBAction)onBackButton:(id)sender {
     
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)onProfileButton:(id)sender {
+    ProfileViewController *provc = [[ProfileViewController alloc] init];
+    [self presentViewController:provc animated:YES completion: nil];
 }
 @end
