@@ -34,13 +34,6 @@
     //UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = vc;
 
-    // Root should be login view.
-    LoginViewController *vc = [[LoginViewController alloc] init];
- // self.window.rootViewController = vc;
-    
-    //HomeViewController *vc = [[HomeViewController alloc] init];
-  self.window.rootViewController = vc;
-
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
