@@ -18,10 +18,10 @@
     // Override point for customization after application launch.
     
     // Root should be login view.
-  //  LoginViewController *vc = [[LoginViewController alloc] init];
+    LoginViewController *vc = [[LoginViewController alloc] init];
  // self.window.rootViewController = vc;
     
- HomeViewController *vc = [[HomeViewController alloc] init];
+    //HomeViewController *vc = [[HomeViewController alloc] init];
   self.window.rootViewController = vc;
     
     self.window.backgroundColor = [UIColor whiteColor];

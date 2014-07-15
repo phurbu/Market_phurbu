@@ -8,13 +8,17 @@
 
 #import "ProfileViewController.h"
 #import "ProductViewCell.h"
+#import "HomeViewController.h"
 
 @interface ProfileViewController ()
 
-@property (weak, nonatomic) IBOutlet UIImageView *productImage;
 
+@property (weak, nonatomic) HomeViewController *homeView;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSArray *products;
+@property (nonatomic, strong) UIImageView *myImageView;
+- (IBAction)onBackButton:(id)sender;
+
 
 @end
 
@@ -37,14 +41,14 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
-    UINib *nib = [UINib nibWithNibName:@"ProductCell" bundle:nil];
-    [self.tableView registerNib:nib forCellReuseIdentifier:@"ProductCell"];
+    UINib *nib = [UINib nibWithNibName:@"ProductViewCell" bundle:nil];
+    [self.tableView registerNib:nib forCellReuseIdentifier:@"ProductViewCell"];
     
     self.tableView.rowHeight = 320;
     
     self.tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth| UIViewAutoresizingFlexibleHeight;
     
-    self.tableView.tableHeaderView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"header"]];
+    self.tableView.tableHeaderView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"profile_header"]];
     
 }
 
@@ -76,44 +80,25 @@
 
 //UItable view header
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
-    //    NSDictionary *productInfo = self.products[section];
-    //    NSString *username = productInfo[@"user"][@"username"];
-    //
-    //    UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 30)];
-    //    headerView.backgroundColor = [UIColor colorWithWhite:1 alpha:0.6];
-    //
-    //    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 0, 320, 30)];
-    //    label.font = [UIFont boldSystemFontOfSize:16];
-    //    label.textColor = [UIColor blueColor];
-    //    label.text = username;
-    //
-    //    [headerView addSubview:label];
-    //
-    //    return headerView;
     
     UIView *header = nil;
     
+    //UIView* headerView = [[UIView alloc] initWithFrame: CGRectMake(0.0, 0.0, 320.0, 69.0)];
+    
     if (section == 0){
-        return [self newLabelWithTitle:@"This is a Header"];
+        return [self newLabelWithTitle:@""];
         
-        //        UIImageView *imgVew = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"header"]];
-        
-        UILabel *label = [self newLabelWithTitle:@"Section 1 Header"];
+        UIImage *profile = [UIImage imageNamed:@"card"];
+        self.myImageView = [[UIImageView alloc] initWithImage:profile];
+        self.myImageView.center = self.view.center;
+        //UILabel *label = [self newLabelWithTitle:@""];
         
         /* Move the label 10 points to the right */
-        label.frame = CGRectMake(label.frame.origin.x + 10.0f,
-                                 5.0f, /* Go 5 points down in y axis */
-                                 label.frame.size.width,
-                                 label.frame.size.height);
+        //label.frame = CGRectMake(0 + 10.0f,5.0f,160,69);
         
-        /* Give the container view 10 points more in width than our label
-         because the label needs a 10 extra points left-margin */
-        CGRect resultFrame = CGRectMake(0.0f,
-                                        0.0f,
-                                        label.frame.size.width + 10.0f,
-                                        label.frame.size.height);
+        CGRect resultFrame = CGRectMake(0.0f,0.0f,160.0,69.0);
         header = [[UIView alloc] initWithFrame:resultFrame];
-        [header addSubview:label];
+        [header addSubview:self.myImageView];
     }
     
     return header;
@@ -130,11 +115,6 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-    //    NSDictionary *photoInfo = self.photos[indexPath.section];
-    //    PhotoViewController *vc = [[PhotoViewController alloc] init];
-    //    vc.photoInfo = photoInfo;
-    //    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (UILabel *) newLabelWithTitle :(NSString *)paramTitle{
@@ -153,7 +133,7 @@
          counter < paramCellCount;
          counter++){
         
-        [result addObject:[[NSString alloc] initWithFormat:@"Section %lu Cell %lu",
+        [result addObject:[[NSString alloc] initWithFormat:@"",
                            (unsigned long)paramIndex,
                            (unsigned long)counter+1]];
     }
@@ -180,16 +160,10 @@
     
 }
 
-- (void) moveSection1ToSection3{
-    
-    NSMutableArray *s1 = self.arrayOfSections[0];
-    [self.arrayOfSections removeObject:s1];
-    [self.arrayOfSections addObject:s1];
-    
-    [self.tableView moveSection:0
-                      toSection:2];
-    
+
+- (IBAction)onBackButton:(id)sender {
+    HomeViewController *homevc = [[HomeViewController alloc] init];
+    [self presentViewController:homevc animated:YES completion: nil];
+
 }
-
-
 @end

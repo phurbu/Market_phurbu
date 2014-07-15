@@ -11,8 +11,10 @@
                 <outlet property="CameraBtn" destination="aHH-nx-VUJ" id="2KE-vi-nA2"/>
                 <outlet property="HomeFeedScrollView" destination="rYN-pV-gRE" id="B4B-4o-A9w"/>
                 <outlet property="YahooCard1" destination="BJh-Xk-8Oe" id="y0N-tX-a2y"/>
-                <outlet property="YahooCard2" destination="lWq-Kf-Qgf" id="9Oe-7Y-ICd"/>
+                <outlet property="YahooCard2" destination="1eb-t6-U7c" id="wi9-Fz-urg"/>
                 <outlet property="YahooScrollView" destination="smX-Bi-UNl" id="veK-gR-QfR"/>
+                <outlet property="contentView" destination="LjS-NG-AWT" id="g5v-mS-vxu"/>
+                <outlet property="drawerButton" destination="1eb-t6-U7c" id="ryR-Hm-8kR"/>
                 <outlet property="filterSelected" destination="hkG-dN-J2B" id="o57-Bl-owt"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
@@ -22,6 +24,11 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <view contentMode="scaleToFill" id="LjS-NG-AWT">
+                    <rect key="frame" x="0.0" y="0.0" width="250" height="640"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="smX-Bi-UNl">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -515,6 +522,9 @@
                             </state>
                             <state key="selected" image="drawer_btn_s"/>
                             <state key="highlighted" image="drawer_btn_s"/>
+                            <connections>
+                                <action selector="onDrawerView:" destination="-1" eventType="touchUpInside" id="St2-9Z-4j9"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

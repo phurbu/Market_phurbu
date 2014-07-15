@@ -9,8 +9,11 @@
 #import "HomeViewController.h"
 #import "ProductViewController.h"
 #import "DrawerMenuViewController.h"
+#import "ProfileViewController.h"
 
 @interface HomeViewController ()
+
+@property (strong, nonatomic) DrawerMenuViewController * drawerMenuViewController;
 @property (weak, nonatomic) IBOutlet UIScrollView *HomeFeedScrollView;
 @property (weak, nonatomic) IBOutlet UIScrollView *YahooScrollView;
 @property (weak, nonatomic) IBOutlet UIView *filterSelected;
@@ -19,12 +22,16 @@
 @property (weak, nonatomic) IBOutlet UIView *AllCard2;
 @property (weak, nonatomic) IBOutlet UIView *YahooCard1;
 @property (weak, nonatomic) IBOutlet UIView *YahooCard2;
+@property (weak, nonatomic) IBOutlet UIButton *drawerButton;
 - (IBAction)onProfileBtn:(id)sender;
 - (IBAction)onYahooFilterButton:(id)sender;
 - (IBAction)onCameraBtn:(id)sender;
 - (IBAction)onAllFilterBtn:(id)sender;
 
 - (IBAction)onTapProduct1:(UITapGestureRecognizer *)sender;
+- (IBAction)onDrawerView:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIView *contentView;
 
 @end
 
@@ -36,6 +43,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.drawerMenuViewController = [[DrawerMenuViewController alloc] init];
     }
     return self;
 }
@@ -80,6 +88,11 @@
         } completion:nil];
         
     }];
+    
+//    self.drawerMenuViewController.view.frame = self.contentView.frame;
+//    [self.contentView addSubview:self.drawerMenuViewController.view];
+//    
+//    self.drawerButton.selected = YES;
     
     
    
@@ -178,15 +191,25 @@
 }
 
 
-
-
-
 - (IBAction)onTapProduct1:(UITapGestureRecognizer *)sender {
     NSLog(@"TAPPED 1");
     UIViewController *vc = [[ProductViewController alloc] init];
     vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     [self presentViewController:vc animated:YES completion:nil];
 
+    
+}
+
+- (IBAction)onDrawerView:(id)sender {
+    //load the home vc
+//    self.drawerMenuViewController.view.frame = self.contentView.frame;
+//    [self.contentView addSubview:self.drawerMenuViewController.view];
+//    //unselect all the others the home button
+//    self.drawerButton.selected = YES;
+    
+    DrawerMenuViewController *drawervc = [[DrawerMenuViewController alloc] init];
+    [self presentViewController:drawervc animated:YES completion: nil];
+    
     
 }
 

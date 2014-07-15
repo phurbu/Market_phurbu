@@ -7,8 +7,12 @@
 //
 
 #import "DrawerMenuViewController.h"
+#import "ProfileViewController.h"
 
 @interface DrawerMenuViewController ()
+- (IBAction)onMainButton:(id)sender;
+- (IBAction)onProfileButton:(id)sender;
+@property (strong, nonatomic) ProfileViewController * profileViewController;
 
 @end
 
@@ -35,4 +39,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onMainButton:(id)sender {
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+
+}
+
+- (IBAction)onProfileButton:(id)sender {
+    ProfileViewController *profilevc = [[ProfileViewController alloc] init];
+    [self presentViewController:profilevc animated:YES completion: nil];
+    
+}
 @end
