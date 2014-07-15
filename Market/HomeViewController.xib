@@ -553,12 +553,12 @@
         </tapGestureRecognizer>
     </objects>
     <resources>
-        <image name="dots" width="97" height="23"/>
+        <image name="dots" width="48" height="11"/>
         <image name="drawer_btn" width="32" height="29"/>
         <image name="drawer_btn_s" width="32" height="29"/>
         <image name="heart" width="23" height="19"/>
         <image name="heart_2" width="23" height="19"/>
-        <image name="info" width="462" height="63"/>
+        <image name="info" width="320" height="67"/>
         <image name="info_2" width="320" height="65"/>
         <image name="logo" width="84" height="23"/>
         <image name="photo_btn" width="99" height="101"/>

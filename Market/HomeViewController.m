@@ -10,12 +10,10 @@
 #import "ProductViewController.h"
 #import "DrawerMenuViewController.h"
 #import "ProfileViewController.h"
-#import "CameraViewController.h"
 
 @interface HomeViewController ()
 
 @property (strong, nonatomic) DrawerMenuViewController * drawerMenuViewController;
-@property (strong, nonatomic) CameraViewController *cameraViewController;
 @property (weak, nonatomic) IBOutlet UIScrollView *HomeFeedScrollView;
 @property (weak, nonatomic) IBOutlet UIScrollView *YahooScrollView;
 @property (weak, nonatomic) IBOutlet UIView *filterSelected;
@@ -188,9 +186,6 @@
         }];
     }];
     
-//    CameraViewController *cameravc = [[CameraViewController alloc] init];
-//    [self presentViewController:cameravc animated:YES completion: nil];
-    
     
 
 }
@@ -206,6 +201,11 @@
 }
 
 - (IBAction)onDrawerView:(id)sender {
+    //load the home vc
+//    self.drawerMenuViewController.view.frame = self.contentView.frame;
+//    [self.contentView addSubview:self.drawerMenuViewController.view];
+//    //unselect all the others the home button
+//    self.drawerButton.selected = YES;
     
     DrawerMenuViewController *drawervc = [[DrawerMenuViewController alloc] init];
     [self presentViewController:drawervc animated:YES completion: nil];
@@ -213,4 +213,35 @@
     
 }
 
+//- (IBAction)onMenu:(id)sender {
+ //   UIViewController *vc = [[DrawerMenuViewController alloc] init];
+  //  vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+  //  [self presentViewController:vc animated:YES completion:nil];
+
+//}
+
+//-(void)handleSwipes:(UISwipeGestureRecognizer *) sender{
+//    [self drawerAnimation];
+//    
+//}
+//-(void)drawerAnimation{
+//    [UIView beginAnimations:Nil context:nil];
+//    [UIView setAnimationDelegate:self];
+//    [UIView setAnimationDuration:-5];
+//    
+//    CGFloat new_x = 0;
+//    if (menuDrawer.frame.origin.x < self.view.frame.origin.x) {
+//        new_x = menuDrawer.frame.origin.x + menuDrawerWidth;
+//    
+//    }else{
+//        new_x = menuDrawer.frame.origin.x - menuDrawerWidth;
+//    }
+//    menuDrawer.frame = CGRectMake(new_x, menuDrawer.frame.origin.y, menuDrawer.frame.size.width, menuDrawer.frame.size.height);
+//    [UIView commitAnimations];
+//}
+//
+//- (IBAction)menuButton:(id)sender {
+//     [self drawerAnimation];
+//}
+//
 @end

@@ -23,6 +23,8 @@
 		0F88F696196101AC00EC6FDD /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F694196101AC00EC6FDD /* LoginViewController.xib */; };
 		0F88F69B196101DF00EC6FDD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F699196101DF00EC6FDD /* HomeViewController.m */; };
 		0F88F69C196101DF00EC6FDD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F69A196101DF00EC6FDD /* HomeViewController.xib */; };
+		0F88F6A0196101FA00EC6FDD /* WishlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F69E196101FA00EC6FDD /* WishlistViewController.m */; };
+		0F88F6A1196101FA00EC6FDD /* WishlistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F69F196101FA00EC6FDD /* WishlistViewController.xib */; };
 		0F88F6A51961021100EC6FDD /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F6A31961021100EC6FDD /* ProductViewController.m */; };
 		0F88F6A61961021100EC6FDD /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F6A41961021100EC6FDD /* ProductViewController.xib */; };
 		0F88F6AA196105F100EC6FDD /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F6A8196105F100EC6FDD /* NavViewController.m */; };
@@ -33,13 +35,12 @@
 		6C77DD431974AAAB003E1D59 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C77DD411974AAAB003E1D59 /* ProfileViewController.xib */; };
 		6C77DD471974AAD2003E1D59 /* ProductViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C77DD451974AAD2003E1D59 /* ProductViewCell.m */; };
 		6C77DD481974AAD2003E1D59 /* ProductViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C77DD461974AAD2003E1D59 /* ProductViewCell.xib */; };
-		6C77DD4C1975120B003E1D59 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C77DD4A1975120B003E1D59 /* CameraViewController.m */; };
-		6C77DD4D1975120B003E1D59 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C77DD4B1975120B003E1D59 /* CameraViewController.xib */; };
-		E6548ED51975CC6900504A00 /* ProductViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6548ED41975CC6900504A00 /* ProductViewCell.xib */; };
 		E6EF07F0197503670049C912 /* CommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EF07EE197503670049C912 /* CommunityViewController.m */; };
 		E6EF07F1197503670049C912 /* CommunityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6EF07EF197503670049C912 /* CommunityViewController.xib */; };
 		E6EF07FA19750DA10049C912 /* CommunityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EF07F819750DA10049C912 /* CommunityTableViewCell.m */; };
 		E6EF07FB19750DA10049C912 /* CommunityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6EF07F919750DA10049C912 /* CommunityTableViewCell.xib */; };
+		6C77DD4C1975120B003E1D59 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C77DD4A1975120B003E1D59 /* CameraViewController.m */; };
+		6C77DD4D1975120B003E1D59 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C77DD4B1975120B003E1D59 /* CameraViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,9 @@
 		0F88F698196101DF00EC6FDD /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		0F88F699196101DF00EC6FDD /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		0F88F69A196101DF00EC6FDD /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		0F88F69D196101FA00EC6FDD /* WishlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WishlistViewController.h; sourceTree = "<group>"; };
+		0F88F69E196101FA00EC6FDD /* WishlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WishlistViewController.m; sourceTree = "<group>"; };
+		0F88F69F196101FA00EC6FDD /* WishlistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WishlistViewController.xib; sourceTree = "<group>"; };
 		0F88F6A21961021100EC6FDD /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
 		0F88F6A31961021100EC6FDD /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
 		0F88F6A41961021100EC6FDD /* ProductViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
@@ -90,16 +94,15 @@
 		6C77DD441974AAD2003E1D59 /* ProductViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewCell.h; sourceTree = "<group>"; };
 		6C77DD451974AAD2003E1D59 /* ProductViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewCell.m; sourceTree = "<group>"; };
 		6C77DD461974AAD2003E1D59 /* ProductViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewCell.xib; sourceTree = "<group>"; };
-		6C77DD491975120B003E1D59 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
-		6C77DD4A1975120B003E1D59 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
-		6C77DD4B1975120B003E1D59 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
-		E6548ED41975CC6900504A00 /* ProductViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewCell.xib; sourceTree = "<group>"; };
 		E6EF07ED197503670049C912 /* CommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityViewController.h; sourceTree = "<group>"; };
 		E6EF07EE197503670049C912 /* CommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityViewController.m; sourceTree = "<group>"; };
 		E6EF07EF197503670049C912 /* CommunityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommunityViewController.xib; sourceTree = "<group>"; };
 		E6EF07F719750DA10049C912 /* CommunityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityTableViewCell.h; sourceTree = "<group>"; };
 		E6EF07F819750DA10049C912 /* CommunityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityTableViewCell.m; sourceTree = "<group>"; };
 		E6EF07F919750DA10049C912 /* CommunityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommunityTableViewCell.xib; sourceTree = "<group>"; };
+		6C77DD491975120B003E1D59 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		6C77DD4A1975120B003E1D59 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		6C77DD4B1975120B003E1D59 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +215,9 @@
 				0F88F698196101DF00EC6FDD /* HomeViewController.h */,
 				0F88F699196101DF00EC6FDD /* HomeViewController.m */,
 				0F88F69A196101DF00EC6FDD /* HomeViewController.xib */,
+				0F88F69D196101FA00EC6FDD /* WishlistViewController.h */,
+				0F88F69E196101FA00EC6FDD /* WishlistViewController.m */,
+				0F88F69F196101FA00EC6FDD /* WishlistViewController.xib */,
 				0F88F6A21961021100EC6FDD /* ProductViewController.h */,
 				0F88F6A31961021100EC6FDD /* ProductViewController.m */,
 				0F88F6A41961021100EC6FDD /* ProductViewController.xib */,
@@ -223,7 +229,6 @@
 				6C77DD411974AAAB003E1D59 /* ProfileViewController.xib */,
 				6C77DD441974AAD2003E1D59 /* ProductViewCell.h */,
 				6C77DD451974AAD2003E1D59 /* ProductViewCell.m */,
-				E6548ED41975CC6900504A00 /* ProductViewCell.xib */,
 				E6EF07ED197503670049C912 /* CommunityViewController.h */,
 				E6EF07EE197503670049C912 /* CommunityViewController.m */,
 				E6EF07EF197503670049C912 /* CommunityViewController.xib */,
@@ -311,7 +316,6 @@
 			files = (
 				6C77DD481974AAD2003E1D59 /* ProductViewCell.xib in Resources */,
 				6C77DD431974AAAB003E1D59 /* ProfileViewController.xib in Resources */,
-				E6548ED51975CC6900504A00 /* ProductViewCell.xib in Resources */,
 				0F88F66E1961019D00EC6FDD /* InfoPlist.strings in Resources */,
 				E6EF07FB19750DA10049C912 /* CommunityTableViewCell.xib in Resources */,
 				0F88F6AB196105F100EC6FDD /* NavViewController.xib in Resources */,
@@ -322,6 +326,7 @@
 				0F88F69C196101DF00EC6FDD /* HomeViewController.xib in Resources */,
 				0F88F6A61961021100EC6FDD /* ProductViewController.xib in Resources */,
 				0F8EF8D6196A8151005C7EF1 /* DrawerMenuViewController.xib in Resources */,
+				0F88F6A1196101FA00EC6FDD /* WishlistViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,11 +347,9 @@
 			files = (
 				0F88F6A51961021100EC6FDD /* ProductViewController.m in Sources */,
 				6C77DD421974AAAB003E1D59 /* ProfileViewController.m in Sources */,
-
 				0F88F6A0196101FA00EC6FDD /* WishlistViewController.m in Sources */,
 				E6EF07FA19750DA10049C912 /* CommunityTableViewCell.m in Sources */,
 				E6EF07F0197503670049C912 /* CommunityViewController.m in Sources */,
-
 				0F88F6741961019D00EC6FDD /* AppDelegate.m in Sources */,
 				0F88F6701961019D00EC6FDD /* main.m in Sources */,
 				0F88F695196101AC00EC6FDD /* LoginViewController.m in Sources */,
