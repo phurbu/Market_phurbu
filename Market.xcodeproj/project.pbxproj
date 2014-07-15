@@ -338,12 +338,11 @@
 			files = (
 				0F88F6A51961021100EC6FDD /* ProductViewController.m in Sources */,
 				6C77DD421974AAAB003E1D59 /* ProfileViewController.m in Sources */,
-<<<<<<< HEAD
-=======
+
 				0F88F6A0196101FA00EC6FDD /* WishlistViewController.m in Sources */,
 				E6EF07FA19750DA10049C912 /* CommunityTableViewCell.m in Sources */,
 				E6EF07F0197503670049C912 /* CommunityViewController.m in Sources */,
->>>>>>> FETCH_HEAD
+
 				0F88F6741961019D00EC6FDD /* AppDelegate.m in Sources */,
 				0F88F6701961019D00EC6FDD /* main.m in Sources */,
 				0F88F695196101AC00EC6FDD /* LoginViewController.m in Sources */,
