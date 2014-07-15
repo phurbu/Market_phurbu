@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4511" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3745"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
@@ -267,8 +267,8 @@
                                     <fragment content="NEW">
                                         <attributes>
                                             <color key="NSColor" red="0.76434948979999995" green="0.76434948979999995" blue="0.76434948979999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="OpenSans-Light"/>
-                                            <font key="NSOriginalFont" size="14" name="OpenSans-Light"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <font key="NSOriginalFont" metaFont="system" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
@@ -279,7 +279,7 @@
                                     <fragment content="NEW">
                                         <attributes>
                                             <color key="NSColor" red="0.16470588235294117" green="0.16470588235294117" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="OpenSans-Bold"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
@@ -290,7 +290,7 @@
                                     <fragment content="NEW">
                                         <attributes>
                                             <color key="NSColor" red="0.16470588235294117" green="0.16470588235294117" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="OpenSans-Bold"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
@@ -327,8 +327,8 @@
                                     <fragment content="BETHEL">
                                         <attributes>
                                             <color key="NSColor" red="0.76434948979999995" green="0.76434948979999995" blue="0.76434948979999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="OpenSans-Light"/>
-                                            <font key="NSOriginalFont" size="14" name="OpenSans-Light"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <font key="NSOriginalFont" metaFont="system" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
@@ -339,7 +339,7 @@
                                     <fragment content="BETHEL">
                                         <attributes>
                                             <color key="NSColor" red="0.16470588235294117" green="0.16470588235294117" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="OpenSans-Bold"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
@@ -350,7 +350,7 @@
                                     <fragment content="BETHEL">
                                         <attributes>
                                             <color key="NSColor" red="0.16470588235294117" green="0.16470588235294117" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="OpenSans-Bold"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
@@ -366,8 +366,8 @@
                                     <fragment content="STANFORD">
                                         <attributes>
                                             <color key="NSColor" red="0.76434948979999995" green="0.76434948979999995" blue="0.76434948979999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="OpenSans-Light"/>
-                                            <font key="NSOriginalFont" size="14" name="OpenSans-Light"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <font key="NSOriginalFont" metaFont="system" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
@@ -378,7 +378,7 @@
                                     <fragment content="STANFORD">
                                         <attributes>
                                             <color key="NSColor" red="0.16470588235294117" green="0.16470588235294117" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="OpenSans-Bold"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
@@ -389,7 +389,7 @@
                                     <fragment content="STANFORD">
                                         <attributes>
                                             <color key="NSColor" red="0.16470588235294117" green="0.16470588235294117" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="OpenSans-Bold"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
@@ -405,8 +405,8 @@
                                     <fragment content="YAHOO">
                                         <attributes>
                                             <color key="NSColor" red="0.76434948979999995" green="0.76434948979999995" blue="0.76434948979999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="OpenSans-Light"/>
-                                            <font key="NSOriginalFont" size="14" name="OpenSans-Light"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <font key="NSOriginalFont" metaFont="system" size="14"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
@@ -417,7 +417,7 @@
                                     <fragment content="YAHOO">
                                         <attributes>
                                             <color key="NSColor" red="0.76470588235294112" green="0.76470588235294112" blue="0.76470588235294112" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="OpenSans-Light"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
@@ -428,7 +428,7 @@
                                     <fragment content="YAHOO">
                                         <attributes>
                                             <color key="NSColor" red="0.16470588235294117" green="0.16470588235294117" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="OpenSans-Bold"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
@@ -454,7 +454,7 @@
                                     <fragment content="ALL">
                                         <attributes>
                                             <color key="NSColor" red="0.76470588235294112" green="0.76470588235294112" blue="0.76470588235294112" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="OpenSans-Light"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
@@ -465,7 +465,7 @@
                                     <fragment content="ALL">
                                         <attributes>
                                             <color key="NSColor" red="0.76470588235294112" green="0.76470588235294112" blue="0.76470588235294112" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="OpenSans-Light"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
@@ -476,7 +476,7 @@
                                     <fragment content="ALL">
                                         <attributes>
                                             <color key="NSColor" red="0.16470588235294117" green="0.16470588235294117" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="12" name="OpenSans-Bold"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>

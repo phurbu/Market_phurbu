@@ -31,6 +31,10 @@
 		0F88F6AB196105F100EC6FDD /* NavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F6A9196105F100EC6FDD /* NavViewController.xib */; };
 		0F8EF8D5196A8151005C7EF1 /* DrawerMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8EF8D3196A8151005C7EF1 /* DrawerMenuViewController.m */; };
 		0F8EF8D6196A8151005C7EF1 /* DrawerMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F8EF8D4196A8151005C7EF1 /* DrawerMenuViewController.xib */; };
+		6C77DD421974AAAB003E1D59 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C77DD401974AAAB003E1D59 /* ProfileViewController.m */; };
+		6C77DD431974AAAB003E1D59 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C77DD411974AAAB003E1D59 /* ProfileViewController.xib */; };
+		6C77DD471974AAD2003E1D59 /* ProductViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C77DD451974AAD2003E1D59 /* ProductViewCell.m */; };
+		6C77DD481974AAD2003E1D59 /* ProductViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C77DD461974AAD2003E1D59 /* ProductViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +82,12 @@
 		0F8EF8D2196A8151005C7EF1 /* DrawerMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerMenuViewController.h; sourceTree = "<group>"; };
 		0F8EF8D3196A8151005C7EF1 /* DrawerMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerMenuViewController.m; sourceTree = "<group>"; };
 		0F8EF8D4196A8151005C7EF1 /* DrawerMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerMenuViewController.xib; sourceTree = "<group>"; };
+		6C77DD3F1974AAAB003E1D59 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		6C77DD401974AAAB003E1D59 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		6C77DD411974AAAB003E1D59 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		6C77DD441974AAD2003E1D59 /* ProductViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewCell.h; sourceTree = "<group>"; };
+		6C77DD451974AAD2003E1D59 /* ProductViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewCell.m; sourceTree = "<group>"; };
+		6C77DD461974AAD2003E1D59 /* ProductViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +206,12 @@
 				0F88F6A7196105F100EC6FDD /* NavViewController.h */,
 				0F88F6A8196105F100EC6FDD /* NavViewController.m */,
 				0F88F6A9196105F100EC6FDD /* NavViewController.xib */,
+				6C77DD3F1974AAAB003E1D59 /* ProfileViewController.h */,
+				6C77DD401974AAAB003E1D59 /* ProfileViewController.m */,
+				6C77DD411974AAAB003E1D59 /* ProfileViewController.xib */,
+				6C77DD441974AAD2003E1D59 /* ProductViewCell.h */,
+				6C77DD451974AAD2003E1D59 /* ProductViewCell.m */,
+				6C77DD461974AAD2003E1D59 /* ProductViewCell.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -275,6 +291,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C77DD481974AAD2003E1D59 /* ProductViewCell.xib in Resources */,
+				6C77DD431974AAAB003E1D59 /* ProfileViewController.xib in Resources */,
 				0F88F66E1961019D00EC6FDD /* InfoPlist.strings in Resources */,
 				0F88F6AB196105F100EC6FDD /* NavViewController.xib in Resources */,
 				0F88F6761961019D00EC6FDD /* Images.xcassets in Resources */,
@@ -302,12 +320,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F88F6A51961021100EC6FDD /* ProductViewController.m in Sources */,
+				6C77DD421974AAAB003E1D59 /* ProfileViewController.m in Sources */,
 				0F88F6A0196101FA00EC6FDD /* WishlistViewController.m in Sources */,
 				0F88F6741961019D00EC6FDD /* AppDelegate.m in Sources */,
 				0F88F6701961019D00EC6FDD /* main.m in Sources */,
 				0F88F695196101AC00EC6FDD /* LoginViewController.m in Sources */,
 				0F88F69B196101DF00EC6FDD /* HomeViewController.m in Sources */,
 				0F8EF8D5196A8151005C7EF1 /* DrawerMenuViewController.m in Sources */,
+				6C77DD471974AAD2003E1D59 /* ProductViewCell.m in Sources */,
 				0F88F6AA196105F100EC6FDD /* NavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
