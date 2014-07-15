@@ -23,8 +23,6 @@
 		0F88F696196101AC00EC6FDD /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F694196101AC00EC6FDD /* LoginViewController.xib */; };
 		0F88F69B196101DF00EC6FDD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F699196101DF00EC6FDD /* HomeViewController.m */; };
 		0F88F69C196101DF00EC6FDD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F69A196101DF00EC6FDD /* HomeViewController.xib */; };
-		0F88F6A0196101FA00EC6FDD /* WishlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F69E196101FA00EC6FDD /* WishlistViewController.m */; };
-		0F88F6A1196101FA00EC6FDD /* WishlistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F69F196101FA00EC6FDD /* WishlistViewController.xib */; };
 		0F88F6A51961021100EC6FDD /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F6A31961021100EC6FDD /* ProductViewController.m */; };
 		0F88F6A61961021100EC6FDD /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F6A41961021100EC6FDD /* ProductViewController.xib */; };
 		0F88F6AA196105F100EC6FDD /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F6A8196105F100EC6FDD /* NavViewController.m */; };
@@ -72,9 +70,6 @@
 		0F88F698196101DF00EC6FDD /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		0F88F699196101DF00EC6FDD /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		0F88F69A196101DF00EC6FDD /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		0F88F69D196101FA00EC6FDD /* WishlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WishlistViewController.h; sourceTree = "<group>"; };
-		0F88F69E196101FA00EC6FDD /* WishlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WishlistViewController.m; sourceTree = "<group>"; };
-		0F88F69F196101FA00EC6FDD /* WishlistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WishlistViewController.xib; sourceTree = "<group>"; };
 		0F88F6A21961021100EC6FDD /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
 		0F88F6A31961021100EC6FDD /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
 		0F88F6A41961021100EC6FDD /* ProductViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
@@ -202,9 +197,6 @@
 				0F88F698196101DF00EC6FDD /* HomeViewController.h */,
 				0F88F699196101DF00EC6FDD /* HomeViewController.m */,
 				0F88F69A196101DF00EC6FDD /* HomeViewController.xib */,
-				0F88F69D196101FA00EC6FDD /* WishlistViewController.h */,
-				0F88F69E196101FA00EC6FDD /* WishlistViewController.m */,
-				0F88F69F196101FA00EC6FDD /* WishlistViewController.xib */,
 				0F88F6A21961021100EC6FDD /* ProductViewController.h */,
 				0F88F6A31961021100EC6FDD /* ProductViewController.m */,
 				0F88F6A41961021100EC6FDD /* ProductViewController.xib */,
@@ -309,7 +301,6 @@
 				0F88F69C196101DF00EC6FDD /* HomeViewController.xib in Resources */,
 				0F88F6A61961021100EC6FDD /* ProductViewController.xib in Resources */,
 				0F8EF8D6196A8151005C7EF1 /* DrawerMenuViewController.xib in Resources */,
-				0F88F6A1196101FA00EC6FDD /* WishlistViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +321,6 @@
 			files = (
 				0F88F6A51961021100EC6FDD /* ProductViewController.m in Sources */,
 				6C77DD421974AAAB003E1D59 /* ProfileViewController.m in Sources */,
-				0F88F6A0196101FA00EC6FDD /* WishlistViewController.m in Sources */,
 				0F88F6741961019D00EC6FDD /* AppDelegate.m in Sources */,
 				0F88F6701961019D00EC6FDD /* main.m in Sources */,
 				0F88F695196101AC00EC6FDD /* LoginViewController.m in Sources */,

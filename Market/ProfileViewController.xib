@@ -46,7 +46,7 @@
         </view>
     </objects>
     <resources>
-        <image name="back" width="14" height="24"/>
+        <image name="back" width="28" height="49"/>
         <image name="card" width="320" height="336"/>
     </resources>
 </document>

@@ -7,8 +7,13 @@
 //
 
 #import "CameraViewController.h"
+#import "HomeViewController.h"
 
 @interface CameraViewController ()
+
+- (IBAction)onCamera:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIButton *onCameraBtn;
 
 @end
 
@@ -35,4 +40,27 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onCamera:(id)sender {
+    
+    [UIView animateWithDuration:.1 animations:^{
+        CGRect frame = self.onCameraBtn.frame;
+        frame.origin.y = 447;
+        self.onCameraBtn.frame = frame;
+    }];
+    
+    CGFloat offset = .3*(447 - 505);
+    [UIView animateWithDuration:.1 animations:^{
+        CGRect frame = self.onCameraBtn.frame;
+        frame.origin.y = 447 + offset;
+        self.onCameraBtn.frame = frame;
+    } completion:^(BOOL finished){
+        [UIView animateWithDuration:.1 animations:^{
+            CGRect frame = self.onCameraBtn.frame;
+            frame.origin.y = 447;
+            self.onCameraBtn.frame = frame;
+        }];
+    }];
+
+    
+}
 @end

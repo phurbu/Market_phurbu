@@ -15,7 +15,6 @@
 @interface NavViewController ()
 @property (weak, nonatomic) IBOutlet UIView *ContentView;
 @property (nonatomic, strong) HomeViewController* homeViewController;
-@property (nonatomic, strong) WishlistViewController* wishlistViewController;
 @end
 
 @implementation NavViewController
@@ -25,8 +24,6 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.homeViewController = [[HomeViewController alloc] init];
-
-        self.wishlistViewController = [[WishlistViewController alloc] init];
 
     }
     return self;
