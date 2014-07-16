@@ -18,7 +18,7 @@
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *LoadingIndicator;
 @property (weak, nonatomic) IBOutlet UIView *FormView;
 - (IBAction)SubmitButton:(id)sender;
-- (IBAction)OnMoeveUp:(id)sender;
+//- (IBAction)OnMoeveUp:(id)sender;
 - (IBAction)OnTap:(UITapGestureRecognizer *)sender;
 - (void)willShowKeyboard:(NSNotification *)notification;
 - (void)willHideKeyboard:(NSNotification *)notification;
@@ -33,6 +33,10 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        
+        // Register the methods for the keyboard hide/show events
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(willShowKeyboard:) name:UIKeyboardWillShowNotification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(willHideKeyboard:) name:UIKeyboardWillHideNotification object:nil];
     }
     return self;
 }
@@ -63,13 +67,13 @@
 //}
 
 - (IBAction)OnTap:(UITapGestureRecognizer *)sender {
-
+    [self.view endEditing:(YES)];
 }
 
 - (void)willShowKeyboard:(NSNotification *)notification {
     [UIView animateWithDuration:.8 animations:^{
         CGRect frame = self.FormView.frame;
-        frame.origin.y = frame.origin.y + 100;
+        frame.origin.y = frame.origin.y - 100;
         self.FormView.frame = frame;
     }];
     

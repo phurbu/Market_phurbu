@@ -18,10 +18,13 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="NLL-4p-eqw">
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="NLL-4p-eqw">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="wK9-xF-Ads" appends="YES" id="YPL-b0-5Fy"/>
+                    </connections>
                 </imageView>
                 <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Vz2-KA-yv9">
                     <rect key="frame" x="141" y="51" width="37" height="37"/>
@@ -65,7 +68,15 @@
             <gestureRecognizers/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="wK9-xF-Ads" appends="YES" id="iiE-bT-scf"/>
+            </connections>
         </view>
+        <tapGestureRecognizer id="wK9-xF-Ads">
+            <connections>
+                <action selector="OnTap:" destination="-1" id="yJV-RL-F0Z"/>
+            </connections>
+        </tapGestureRecognizer>
     </objects>
     <resources>
         <image name="login" width="321" height="569"/>
