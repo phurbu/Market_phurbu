@@ -23,14 +23,14 @@
     // Override point for customization after application launch.
     
 //    Root should be login view.
-//    LoginViewController *vc = [[LoginViewController alloc] init];
+    LoginViewController *vc = [[LoginViewController alloc] init];
 //    self.window.rootViewController = vc;
     
 //    HomeViewController *vc = [[HomeViewController alloc] init];
 //    self.window.rootViewController = vc;
     
     //Daniel's Community VC is here:
-    CommunityViewController *vc = [[CommunityViewController alloc] init];
+    //CommunityViewController *vc = [[CommunityViewController alloc] init];
     //UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = vc;
 

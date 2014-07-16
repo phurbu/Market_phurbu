@@ -20,6 +20,8 @@
 - (IBAction)SubmitButton:(id)sender;
 - (IBAction)OnMoeveUp:(id)sender;
 - (IBAction)OnTap:(UITapGestureRecognizer *)sender;
+- (void)willShowKeyboard:(NSNotification *)notification;
+- (void)willHideKeyboard:(NSNotification *)notification;
 
 - (void) checkResponse;
 @end
@@ -52,20 +54,27 @@
     [self performSelector:@selector(checkResponse) withObject:nil afterDelay:1];
 }
 
-- (IBAction)OnMoeveUp:(id)sender {
-    [UIView animateWithDuration:.8 animations:^{
-        CGRect frame = self.FormView.frame;
-        frame.origin.y = frame.origin.y - 100;
-         self.FormView.frame = frame;
-    }];
+//- (IBAction)OnMoeveUp:(id)sender {
+//    [UIView animateWithDuration:.8 animations:^{
+//        CGRect frame = self.FormView.frame;
+//        frame.origin.y = frame.origin.y - 100;
+//         self.FormView.frame = frame;
+//    }];
+//}
 
-    
-   
+- (IBAction)OnTap:(UITapGestureRecognizer *)sender {
 
 }
 
-- (IBAction)OnTap:(UITapGestureRecognizer *)sender {
-    [self.view endEditing:YES];
+- (void)willShowKeyboard:(NSNotification *)notification {
+    [UIView animateWithDuration:.8 animations:^{
+        CGRect frame = self.FormView.frame;
+        frame.origin.y = frame.origin.y + 100;
+        self.FormView.frame = frame;
+    }];
+    
+}
+- (void)willHideKeyboard:(NSNotification *)notification {
     [UIView animateWithDuration:.8 animations:^{
         CGRect frame = self.FormView.frame;
         frame.origin.y = frame.origin.y + 100;
