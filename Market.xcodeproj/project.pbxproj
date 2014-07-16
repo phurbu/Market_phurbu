@@ -12,35 +12,59 @@
 		0F88F6681961019D00EC6FDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F88F6671961019D00EC6FDD /* UIKit.framework */; };
 		0F88F66E1961019D00EC6FDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F66C1961019D00EC6FDD /* InfoPlist.strings */; };
 		0F88F6701961019D00EC6FDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F66F1961019D00EC6FDD /* main.m */; };
-		0F88F6741961019D00EC6FDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F6731961019D00EC6FDD /* AppDelegate.m */; };
-		0F88F6761961019D00EC6FDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F6751961019D00EC6FDD /* Images.xcassets */; };
 		0F88F67D1961019D00EC6FDD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F88F67C1961019D00EC6FDD /* XCTest.framework */; };
 		0F88F67E1961019D00EC6FDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F88F6631961019D00EC6FDD /* Foundation.framework */; };
 		0F88F67F1961019D00EC6FDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F88F6671961019D00EC6FDD /* UIKit.framework */; };
 		0F88F6871961019D00EC6FDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F6851961019D00EC6FDD /* InfoPlist.strings */; };
 		0F88F6891961019D00EC6FDD /* MarketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F6881961019D00EC6FDD /* MarketTests.m */; };
-		0F88F695196101AC00EC6FDD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F693196101AC00EC6FDD /* LoginViewController.m */; };
-		0F88F696196101AC00EC6FDD /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F694196101AC00EC6FDD /* LoginViewController.xib */; };
-		0F88F69B196101DF00EC6FDD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F699196101DF00EC6FDD /* HomeViewController.m */; };
-		0F88F69C196101DF00EC6FDD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F69A196101DF00EC6FDD /* HomeViewController.xib */; };
-		0F88F6A0196101FA00EC6FDD /* WishlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F69E196101FA00EC6FDD /* WishlistViewController.m */; };
-		0F88F6A1196101FA00EC6FDD /* WishlistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F69F196101FA00EC6FDD /* WishlistViewController.xib */; };
-		0F88F6A51961021100EC6FDD /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F6A31961021100EC6FDD /* ProductViewController.m */; };
-		0F88F6A61961021100EC6FDD /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F6A41961021100EC6FDD /* ProductViewController.xib */; };
-		0F88F6AA196105F100EC6FDD /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88F6A8196105F100EC6FDD /* NavViewController.m */; };
-		0F88F6AB196105F100EC6FDD /* NavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F88F6A9196105F100EC6FDD /* NavViewController.xib */; };
-		0F8EF8D5196A8151005C7EF1 /* DrawerMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8EF8D3196A8151005C7EF1 /* DrawerMenuViewController.m */; };
-		0F8EF8D6196A8151005C7EF1 /* DrawerMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F8EF8D4196A8151005C7EF1 /* DrawerMenuViewController.xib */; };
-		6C77DD421974AAAB003E1D59 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C77DD401974AAAB003E1D59 /* ProfileViewController.m */; };
-		6C77DD431974AAAB003E1D59 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C77DD411974AAAB003E1D59 /* ProfileViewController.xib */; };
-		6C77DD471974AAD2003E1D59 /* ProductViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C77DD451974AAD2003E1D59 /* ProductViewCell.m */; };
-		6C77DD481974AAD2003E1D59 /* ProductViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C77DD461974AAD2003E1D59 /* ProductViewCell.xib */; };
-		E6EF07F0197503670049C912 /* CommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EF07EE197503670049C912 /* CommunityViewController.m */; };
-		E6EF07F1197503670049C912 /* CommunityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6EF07EF197503670049C912 /* CommunityViewController.xib */; };
-		E6EF07FA19750DA10049C912 /* CommunityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EF07F819750DA10049C912 /* CommunityTableViewCell.m */; };
-		E6EF07FB19750DA10049C912 /* CommunityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6EF07F919750DA10049C912 /* CommunityTableViewCell.xib */; };
-		6C77DD4C1975120B003E1D59 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C77DD4A1975120B003E1D59 /* CameraViewController.m */; };
-		6C77DD4D1975120B003E1D59 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C77DD4B1975120B003E1D59 /* CameraViewController.xib */; };
+		E69123AB1975E67000B7E7A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E69123881975E67000B7E7A3 /* AppDelegate.m */; };
+		E69123AC1975E67000B7E7A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E69123881975E67000B7E7A3 /* AppDelegate.m */; };
+		E69123AD1975E67000B7E7A3 /* DrawerMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E691238A1975E67000B7E7A3 /* DrawerMenuViewController.m */; };
+		E69123AE1975E67000B7E7A3 /* DrawerMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E691238A1975E67000B7E7A3 /* DrawerMenuViewController.m */; };
+		E69123AF1975E67000B7E7A3 /* DrawerMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E691238B1975E67000B7E7A3 /* DrawerMenuViewController.xib */; };
+		E69123B01975E67000B7E7A3 /* DrawerMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E691238B1975E67000B7E7A3 /* DrawerMenuViewController.xib */; };
+		E69123B11975E67000B7E7A3 /* CommunityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E691238D1975E67000B7E7A3 /* CommunityTableViewCell.m */; };
+		E69123B21975E67000B7E7A3 /* CommunityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E691238D1975E67000B7E7A3 /* CommunityTableViewCell.m */; };
+		E69123B31975E67000B7E7A3 /* CommunityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E691238E1975E67000B7E7A3 /* CommunityTableViewCell.xib */; };
+		E69123B41975E67000B7E7A3 /* CommunityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E691238E1975E67000B7E7A3 /* CommunityTableViewCell.xib */; };
+		E69123B51975E67000B7E7A3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E691238F1975E67000B7E7A3 /* LoginViewController.m */; };
+		E69123B61975E67000B7E7A3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E691238F1975E67000B7E7A3 /* LoginViewController.m */; };
+		E69123B71975E67000B7E7A3 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69123901975E67000B7E7A3 /* LoginViewController.xib */; };
+		E69123B81975E67000B7E7A3 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69123901975E67000B7E7A3 /* LoginViewController.xib */; };
+		E69123B91975E67000B7E7A3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69123931975E67000B7E7A3 /* HomeViewController.m */; };
+		E69123BA1975E67000B7E7A3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69123931975E67000B7E7A3 /* HomeViewController.m */; };
+		E69123BB1975E67000B7E7A3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69123941975E67000B7E7A3 /* HomeViewController.xib */; };
+		E69123BC1975E67000B7E7A3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69123941975E67000B7E7A3 /* HomeViewController.xib */; };
+		E69123BD1975E67000B7E7A3 /* WishlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69123961975E67000B7E7A3 /* WishlistViewController.m */; };
+		E69123BE1975E67000B7E7A3 /* WishlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69123961975E67000B7E7A3 /* WishlistViewController.m */; };
+		E69123BF1975E67000B7E7A3 /* WishlistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69123971975E67000B7E7A3 /* WishlistViewController.xib */; };
+		E69123C01975E67000B7E7A3 /* WishlistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69123971975E67000B7E7A3 /* WishlistViewController.xib */; };
+		E69123C11975E67000B7E7A3 /* ProductViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E69123991975E67000B7E7A3 /* ProductViewCell.m */; };
+		E69123C21975E67000B7E7A3 /* ProductViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E69123991975E67000B7E7A3 /* ProductViewCell.m */; };
+		E69123C31975E67000B7E7A3 /* ProductViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E691239A1975E67000B7E7A3 /* ProductViewCell.xib */; };
+		E69123C41975E67000B7E7A3 /* ProductViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E691239A1975E67000B7E7A3 /* ProductViewCell.xib */; };
+		E69123C51975E67000B7E7A3 /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E691239C1975E67000B7E7A3 /* ProductViewController.m */; };
+		E69123C61975E67000B7E7A3 /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E691239C1975E67000B7E7A3 /* ProductViewController.m */; };
+		E69123C71975E67000B7E7A3 /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E691239D1975E67000B7E7A3 /* ProductViewController.xib */; };
+		E69123C81975E67000B7E7A3 /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E691239D1975E67000B7E7A3 /* ProductViewController.xib */; };
+		E69123C91975E67000B7E7A3 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E691239F1975E67000B7E7A3 /* NavViewController.m */; };
+		E69123CA1975E67000B7E7A3 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E691239F1975E67000B7E7A3 /* NavViewController.m */; };
+		E69123CB1975E67000B7E7A3 /* NavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69123A01975E67000B7E7A3 /* NavViewController.xib */; };
+		E69123CC1975E67000B7E7A3 /* NavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69123A01975E67000B7E7A3 /* NavViewController.xib */; };
+		E69123CD1975E67000B7E7A3 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69123A21975E67000B7E7A3 /* ProfileViewController.m */; };
+		E69123CE1975E67000B7E7A3 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69123A21975E67000B7E7A3 /* ProfileViewController.m */; };
+		E69123CF1975E67000B7E7A3 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69123A31975E67000B7E7A3 /* ProfileViewController.xib */; };
+		E69123D01975E67000B7E7A3 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69123A31975E67000B7E7A3 /* ProfileViewController.xib */; };
+		E69123D11975E67000B7E7A3 /* CommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69123A51975E67000B7E7A3 /* CommunityViewController.m */; };
+		E69123D21975E67000B7E7A3 /* CommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69123A51975E67000B7E7A3 /* CommunityViewController.m */; };
+		E69123D31975E67000B7E7A3 /* CommunityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69123A61975E67000B7E7A3 /* CommunityViewController.xib */; };
+		E69123D41975E67000B7E7A3 /* CommunityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69123A61975E67000B7E7A3 /* CommunityViewController.xib */; };
+		E69123D51975E67000B7E7A3 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69123A81975E67000B7E7A3 /* CameraViewController.m */; };
+		E69123D61975E67000B7E7A3 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69123A81975E67000B7E7A3 /* CameraViewController.m */; };
+		E69123D71975E67000B7E7A3 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69123A91975E67000B7E7A3 /* CameraViewController.xib */; };
+		E69123D81975E67000B7E7A3 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69123A91975E67000B7E7A3 /* CameraViewController.xib */; };
+		E69123D91975E67000B7E7A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E69123AA1975E67000B7E7A3 /* Images.xcassets */; };
+		E69123DA1975E67000B7E7A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E69123AA1975E67000B7E7A3 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,47 +86,47 @@
 		0F88F66D1961019D00EC6FDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F88F66F1961019D00EC6FDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F88F6711961019D00EC6FDD /* Market-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Market-Prefix.pch"; sourceTree = "<group>"; };
-		0F88F6721961019D00EC6FDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0F88F6731961019D00EC6FDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0F88F6751961019D00EC6FDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0F88F67B1961019D00EC6FDD /* MarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F88F67C1961019D00EC6FDD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0F88F6841961019D00EC6FDD /* MarketTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarketTests-Info.plist"; sourceTree = "<group>"; };
 		0F88F6861961019D00EC6FDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F88F6881961019D00EC6FDD /* MarketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketTests.m; sourceTree = "<group>"; };
-		0F88F692196101AC00EC6FDD /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		0F88F693196101AC00EC6FDD /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		0F88F694196101AC00EC6FDD /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		0F88F698196101DF00EC6FDD /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		0F88F699196101DF00EC6FDD /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		0F88F69A196101DF00EC6FDD /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		0F88F69D196101FA00EC6FDD /* WishlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WishlistViewController.h; sourceTree = "<group>"; };
-		0F88F69E196101FA00EC6FDD /* WishlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WishlistViewController.m; sourceTree = "<group>"; };
-		0F88F69F196101FA00EC6FDD /* WishlistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WishlistViewController.xib; sourceTree = "<group>"; };
-		0F88F6A21961021100EC6FDD /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
-		0F88F6A31961021100EC6FDD /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
-		0F88F6A41961021100EC6FDD /* ProductViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
-		0F88F6A7196105F100EC6FDD /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
-		0F88F6A8196105F100EC6FDD /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
-		0F88F6A9196105F100EC6FDD /* NavViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavViewController.xib; sourceTree = "<group>"; };
-		0F8EF8D2196A8151005C7EF1 /* DrawerMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerMenuViewController.h; sourceTree = "<group>"; };
-		0F8EF8D3196A8151005C7EF1 /* DrawerMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerMenuViewController.m; sourceTree = "<group>"; };
-		0F8EF8D4196A8151005C7EF1 /* DrawerMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerMenuViewController.xib; sourceTree = "<group>"; };
-		6C77DD3F1974AAAB003E1D59 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
-		6C77DD401974AAAB003E1D59 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
-		6C77DD411974AAAB003E1D59 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
-		6C77DD441974AAD2003E1D59 /* ProductViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewCell.h; sourceTree = "<group>"; };
-		6C77DD451974AAD2003E1D59 /* ProductViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewCell.m; sourceTree = "<group>"; };
-		6C77DD461974AAD2003E1D59 /* ProductViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewCell.xib; sourceTree = "<group>"; };
-		E6EF07ED197503670049C912 /* CommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityViewController.h; sourceTree = "<group>"; };
-		E6EF07EE197503670049C912 /* CommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityViewController.m; sourceTree = "<group>"; };
-		E6EF07EF197503670049C912 /* CommunityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommunityViewController.xib; sourceTree = "<group>"; };
-		E6EF07F719750DA10049C912 /* CommunityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityTableViewCell.h; sourceTree = "<group>"; };
-		E6EF07F819750DA10049C912 /* CommunityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityTableViewCell.m; sourceTree = "<group>"; };
-		E6EF07F919750DA10049C912 /* CommunityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommunityTableViewCell.xib; sourceTree = "<group>"; };
-		6C77DD491975120B003E1D59 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
-		6C77DD4A1975120B003E1D59 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
-		6C77DD4B1975120B003E1D59 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		E69123871975E67000B7E7A3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E69123881975E67000B7E7A3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E69123891975E67000B7E7A3 /* DrawerMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerMenuViewController.h; sourceTree = "<group>"; };
+		E691238A1975E67000B7E7A3 /* DrawerMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerMenuViewController.m; sourceTree = "<group>"; };
+		E691238B1975E67000B7E7A3 /* DrawerMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerMenuViewController.xib; sourceTree = "<group>"; };
+		E691238C1975E67000B7E7A3 /* CommunityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityTableViewCell.h; sourceTree = "<group>"; };
+		E691238D1975E67000B7E7A3 /* CommunityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityTableViewCell.m; sourceTree = "<group>"; };
+		E691238E1975E67000B7E7A3 /* CommunityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommunityTableViewCell.xib; sourceTree = "<group>"; };
+		E691238F1975E67000B7E7A3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E69123901975E67000B7E7A3 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		E69123911975E67000B7E7A3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E69123921975E67000B7E7A3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E69123931975E67000B7E7A3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		E69123941975E67000B7E7A3 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		E69123951975E67000B7E7A3 /* WishlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WishlistViewController.h; sourceTree = "<group>"; };
+		E69123961975E67000B7E7A3 /* WishlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WishlistViewController.m; sourceTree = "<group>"; };
+		E69123971975E67000B7E7A3 /* WishlistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WishlistViewController.xib; sourceTree = "<group>"; };
+		E69123981975E67000B7E7A3 /* ProductViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewCell.h; sourceTree = "<group>"; };
+		E69123991975E67000B7E7A3 /* ProductViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewCell.m; sourceTree = "<group>"; };
+		E691239A1975E67000B7E7A3 /* ProductViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewCell.xib; sourceTree = "<group>"; };
+		E691239B1975E67000B7E7A3 /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
+		E691239C1975E67000B7E7A3 /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
+		E691239D1975E67000B7E7A3 /* ProductViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
+		E691239E1975E67000B7E7A3 /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		E691239F1975E67000B7E7A3 /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		E69123A01975E67000B7E7A3 /* NavViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavViewController.xib; sourceTree = "<group>"; };
+		E69123A11975E67000B7E7A3 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		E69123A21975E67000B7E7A3 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		E69123A31975E67000B7E7A3 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		E69123A41975E67000B7E7A3 /* CommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityViewController.h; sourceTree = "<group>"; };
+		E69123A51975E67000B7E7A3 /* CommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityViewController.m; sourceTree = "<group>"; };
+		E69123A61975E67000B7E7A3 /* CommunityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommunityViewController.xib; sourceTree = "<group>"; };
+		E69123A71975E67000B7E7A3 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		E69123A81975E67000B7E7A3 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		E69123A91975E67000B7E7A3 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		E69123AA1975E67000B7E7A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,10 +186,42 @@
 		0F88F6691961019D00EC6FDD /* Market */ = {
 			isa = PBXGroup;
 			children = (
-				0F88F6721961019D00EC6FDD /* AppDelegate.h */,
-				0F88F6731961019D00EC6FDD /* AppDelegate.m */,
-				0F88F697196101CB00EC6FDD /* ViewControllers */,
-				0F88F6751961019D00EC6FDD /* Images.xcassets */,
+				E69123871975E67000B7E7A3 /* AppDelegate.h */,
+				E69123881975E67000B7E7A3 /* AppDelegate.m */,
+				E69123891975E67000B7E7A3 /* DrawerMenuViewController.h */,
+				E691238A1975E67000B7E7A3 /* DrawerMenuViewController.m */,
+				E691238B1975E67000B7E7A3 /* DrawerMenuViewController.xib */,
+				E691238C1975E67000B7E7A3 /* CommunityTableViewCell.h */,
+				E691238D1975E67000B7E7A3 /* CommunityTableViewCell.m */,
+				E691238E1975E67000B7E7A3 /* CommunityTableViewCell.xib */,
+				E691238F1975E67000B7E7A3 /* LoginViewController.m */,
+				E69123901975E67000B7E7A3 /* LoginViewController.xib */,
+				E69123911975E67000B7E7A3 /* LoginViewController.h */,
+				E69123921975E67000B7E7A3 /* HomeViewController.h */,
+				E69123931975E67000B7E7A3 /* HomeViewController.m */,
+				E69123941975E67000B7E7A3 /* HomeViewController.xib */,
+				E69123951975E67000B7E7A3 /* WishlistViewController.h */,
+				E69123961975E67000B7E7A3 /* WishlistViewController.m */,
+				E69123971975E67000B7E7A3 /* WishlistViewController.xib */,
+				E69123981975E67000B7E7A3 /* ProductViewCell.h */,
+				E69123991975E67000B7E7A3 /* ProductViewCell.m */,
+				E691239A1975E67000B7E7A3 /* ProductViewCell.xib */,
+				E691239B1975E67000B7E7A3 /* ProductViewController.h */,
+				E691239C1975E67000B7E7A3 /* ProductViewController.m */,
+				E691239D1975E67000B7E7A3 /* ProductViewController.xib */,
+				E691239E1975E67000B7E7A3 /* NavViewController.h */,
+				E691239F1975E67000B7E7A3 /* NavViewController.m */,
+				E69123A01975E67000B7E7A3 /* NavViewController.xib */,
+				E69123A11975E67000B7E7A3 /* ProfileViewController.h */,
+				E69123A21975E67000B7E7A3 /* ProfileViewController.m */,
+				E69123A31975E67000B7E7A3 /* ProfileViewController.xib */,
+				E69123A41975E67000B7E7A3 /* CommunityViewController.h */,
+				E69123A51975E67000B7E7A3 /* CommunityViewController.m */,
+				E69123A61975E67000B7E7A3 /* CommunityViewController.xib */,
+				E69123A71975E67000B7E7A3 /* CameraViewController.h */,
+				E69123A81975E67000B7E7A3 /* CameraViewController.m */,
+				E69123A91975E67000B7E7A3 /* CameraViewController.xib */,
+				E69123AA1975E67000B7E7A3 /* Images.xcassets */,
 				0F88F66A1961019D00EC6FDD /* Supporting Files */,
 			);
 			path = Market;
@@ -198,45 +254,6 @@
 				0F88F6851961019D00EC6FDD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0F88F697196101CB00EC6FDD /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				0F8EF8D2196A8151005C7EF1 /* DrawerMenuViewController.h */,
-				0F8EF8D3196A8151005C7EF1 /* DrawerMenuViewController.m */,
-				0F8EF8D4196A8151005C7EF1 /* DrawerMenuViewController.xib */,
-				E6EF07F719750DA10049C912 /* CommunityTableViewCell.h */,
-				E6EF07F819750DA10049C912 /* CommunityTableViewCell.m */,
-				E6EF07F919750DA10049C912 /* CommunityTableViewCell.xib */,
-				0F88F693196101AC00EC6FDD /* LoginViewController.m */,
-				0F88F694196101AC00EC6FDD /* LoginViewController.xib */,
-				0F88F692196101AC00EC6FDD /* LoginViewController.h */,
-				0F88F698196101DF00EC6FDD /* HomeViewController.h */,
-				0F88F699196101DF00EC6FDD /* HomeViewController.m */,
-				0F88F69A196101DF00EC6FDD /* HomeViewController.xib */,
-				0F88F69D196101FA00EC6FDD /* WishlistViewController.h */,
-				0F88F69E196101FA00EC6FDD /* WishlistViewController.m */,
-				0F88F69F196101FA00EC6FDD /* WishlistViewController.xib */,
-				0F88F6A21961021100EC6FDD /* ProductViewController.h */,
-				0F88F6A31961021100EC6FDD /* ProductViewController.m */,
-				0F88F6A41961021100EC6FDD /* ProductViewController.xib */,
-				0F88F6A7196105F100EC6FDD /* NavViewController.h */,
-				0F88F6A8196105F100EC6FDD /* NavViewController.m */,
-				0F88F6A9196105F100EC6FDD /* NavViewController.xib */,
-				6C77DD3F1974AAAB003E1D59 /* ProfileViewController.h */,
-				6C77DD401974AAAB003E1D59 /* ProfileViewController.m */,
-				6C77DD411974AAAB003E1D59 /* ProfileViewController.xib */,
-				6C77DD441974AAD2003E1D59 /* ProductViewCell.h */,
-				6C77DD451974AAD2003E1D59 /* ProductViewCell.m */,
-				E6EF07ED197503670049C912 /* CommunityViewController.h */,
-				E6EF07EE197503670049C912 /* CommunityViewController.m */,
-				E6EF07EF197503670049C912 /* CommunityViewController.xib */,
-				6C77DD491975120B003E1D59 /* CameraViewController.h */,
-				6C77DD4A1975120B003E1D59 /* CameraViewController.m */,
-				6C77DD4B1975120B003E1D59 /* CameraViewController.xib */,
-			);
-			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,19 +331,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C77DD481974AAD2003E1D59 /* ProductViewCell.xib in Resources */,
-				6C77DD431974AAAB003E1D59 /* ProfileViewController.xib in Resources */,
+				E69123C31975E67000B7E7A3 /* ProductViewCell.xib in Resources */,
+				E69123C71975E67000B7E7A3 /* ProductViewController.xib in Resources */,
+				E69123B71975E67000B7E7A3 /* LoginViewController.xib in Resources */,
+				E69123BF1975E67000B7E7A3 /* WishlistViewController.xib in Resources */,
+				E69123D31975E67000B7E7A3 /* CommunityViewController.xib in Resources */,
+				E69123CF1975E67000B7E7A3 /* ProfileViewController.xib in Resources */,
 				0F88F66E1961019D00EC6FDD /* InfoPlist.strings in Resources */,
-				E6EF07FB19750DA10049C912 /* CommunityTableViewCell.xib in Resources */,
-				0F88F6AB196105F100EC6FDD /* NavViewController.xib in Resources */,
-				E6EF07F1197503670049C912 /* CommunityViewController.xib in Resources */,
-				0F88F6761961019D00EC6FDD /* Images.xcassets in Resources */,
-				6C77DD4D1975120B003E1D59 /* CameraViewController.xib in Resources */,
-				0F88F696196101AC00EC6FDD /* LoginViewController.xib in Resources */,
-				0F88F69C196101DF00EC6FDD /* HomeViewController.xib in Resources */,
-				0F88F6A61961021100EC6FDD /* ProductViewController.xib in Resources */,
-				0F8EF8D6196A8151005C7EF1 /* DrawerMenuViewController.xib in Resources */,
-				0F88F6A1196101FA00EC6FDD /* WishlistViewController.xib in Resources */,
+				E69123D71975E67000B7E7A3 /* CameraViewController.xib in Resources */,
+				E69123D91975E67000B7E7A3 /* Images.xcassets in Resources */,
+				E69123CB1975E67000B7E7A3 /* NavViewController.xib in Resources */,
+				E69123AF1975E67000B7E7A3 /* DrawerMenuViewController.xib in Resources */,
+				E69123B31975E67000B7E7A3 /* CommunityTableViewCell.xib in Resources */,
+				E69123BB1975E67000B7E7A3 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +351,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E69123B81975E67000B7E7A3 /* LoginViewController.xib in Resources */,
+				E69123B41975E67000B7E7A3 /* CommunityTableViewCell.xib in Resources */,
+				E69123C81975E67000B7E7A3 /* ProductViewController.xib in Resources */,
+				E69123DA1975E67000B7E7A3 /* Images.xcassets in Resources */,
+				E69123C41975E67000B7E7A3 /* ProductViewCell.xib in Resources */,
+				E69123D41975E67000B7E7A3 /* CommunityViewController.xib in Resources */,
+				E69123CC1975E67000B7E7A3 /* NavViewController.xib in Resources */,
+				E69123BC1975E67000B7E7A3 /* HomeViewController.xib in Resources */,
+				E69123B01975E67000B7E7A3 /* DrawerMenuViewController.xib in Resources */,
 				0F88F6871961019D00EC6FDD /* InfoPlist.strings in Resources */,
+				E69123D81975E67000B7E7A3 /* CameraViewController.xib in Resources */,
+				E69123D01975E67000B7E7A3 /* ProfileViewController.xib in Resources */,
+				E69123C01975E67000B7E7A3 /* WishlistViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,19 +374,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F88F6A51961021100EC6FDD /* ProductViewController.m in Sources */,
-				6C77DD421974AAAB003E1D59 /* ProfileViewController.m in Sources */,
-				0F88F6A0196101FA00EC6FDD /* WishlistViewController.m in Sources */,
-				E6EF07FA19750DA10049C912 /* CommunityTableViewCell.m in Sources */,
-				E6EF07F0197503670049C912 /* CommunityViewController.m in Sources */,
-				0F88F6741961019D00EC6FDD /* AppDelegate.m in Sources */,
+				E69123D11975E67000B7E7A3 /* CommunityViewController.m in Sources */,
+				E69123C11975E67000B7E7A3 /* ProductViewCell.m in Sources */,
+				E69123AB1975E67000B7E7A3 /* AppDelegate.m in Sources */,
+				E69123AD1975E67000B7E7A3 /* DrawerMenuViewController.m in Sources */,
 				0F88F6701961019D00EC6FDD /* main.m in Sources */,
-				0F88F695196101AC00EC6FDD /* LoginViewController.m in Sources */,
-				6C77DD4C1975120B003E1D59 /* CameraViewController.m in Sources */,
-				0F88F69B196101DF00EC6FDD /* HomeViewController.m in Sources */,
-				0F8EF8D5196A8151005C7EF1 /* DrawerMenuViewController.m in Sources */,
-				6C77DD471974AAD2003E1D59 /* ProductViewCell.m in Sources */,
-				0F88F6AA196105F100EC6FDD /* NavViewController.m in Sources */,
+				E69123C91975E67000B7E7A3 /* NavViewController.m in Sources */,
+				E69123B11975E67000B7E7A3 /* CommunityTableViewCell.m in Sources */,
+				E69123B51975E67000B7E7A3 /* LoginViewController.m in Sources */,
+				E69123C51975E67000B7E7A3 /* ProductViewController.m in Sources */,
+				E69123D51975E67000B7E7A3 /* CameraViewController.m in Sources */,
+				E69123CD1975E67000B7E7A3 /* ProfileViewController.m in Sources */,
+				E69123B91975E67000B7E7A3 /* HomeViewController.m in Sources */,
+				E69123BD1975E67000B7E7A3 /* WishlistViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +394,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E69123D21975E67000B7E7A3 /* CommunityViewController.m in Sources */,
+				E69123C21975E67000B7E7A3 /* ProductViewCell.m in Sources */,
+				E69123AC1975E67000B7E7A3 /* AppDelegate.m in Sources */,
+				E69123AE1975E67000B7E7A3 /* DrawerMenuViewController.m in Sources */,
 				0F88F6891961019D00EC6FDD /* MarketTests.m in Sources */,
+				E69123CA1975E67000B7E7A3 /* NavViewController.m in Sources */,
+				E69123B21975E67000B7E7A3 /* CommunityTableViewCell.m in Sources */,
+				E69123B61975E67000B7E7A3 /* LoginViewController.m in Sources */,
+				E69123C61975E67000B7E7A3 /* ProductViewController.m in Sources */,
+				E69123D61975E67000B7E7A3 /* CameraViewController.m in Sources */,
+				E69123CE1975E67000B7E7A3 /* ProfileViewController.m in Sources */,
+				E69123BA1975E67000B7E7A3 /* HomeViewController.m in Sources */,
+				E69123BE1975E67000B7E7A3 /* WishlistViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
