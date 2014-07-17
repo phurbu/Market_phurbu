@@ -10,6 +10,8 @@
 
 @interface ProductViewController ()
 - (IBAction)onBackButton:(id)sender;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+
 
 @end
 
@@ -28,6 +30,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.scrollView.contentSize = CGSizeMake(320, 650);
 }
 
 - (void)didReceiveMemoryWarning

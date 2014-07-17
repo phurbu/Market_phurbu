@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProductViewController">
             <connections>
+                <outlet property="scrollView" destination="ez9-5x-cye" id="QRO-te-2GK"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>
@@ -32,10 +33,6 @@
                                 <action selector="onBackButton:" destination="-1" eventType="touchUpInside" id="FYs-MD-fVU"/>
                             </connections>
                         </button>
-                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="2Km-Xy-eJX">
-                            <rect key="frame" x="259" y="223" width="39" height="37"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        </pageControl>
                     </subviews>
                 </scrollView>
             </subviews>
