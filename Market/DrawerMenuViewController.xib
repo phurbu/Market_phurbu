@@ -79,6 +79,16 @@
                         <action selector="onMainButton:" destination="-1" eventType="touchUpInside" id="Ch8-1V-fNp"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tmt-5M-RHF">
+                    <rect key="frame" x="18" y="27" width="26" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="icon_50291">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onMainButton:" destination="-1" eventType="touchUpInside" id="YcY-7d-aQf"/>
+                    </connections>
+                </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GZT-Rc-KWs">
                     <rect key="frame" x="67" y="162" width="98" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -165,7 +175,7 @@
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <state key="normal">
                         <attributedString key="attributedTitle">
-                            <fragment content="Main Page">
+                            <fragment content="Settings">
                                 <attributes>
                                     <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <font key="NSFont" size="16" name="HelveticaNeue-Thin"/>
@@ -175,6 +185,10 @@
                         </attributedString>
                     </state>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="IPK-Gt-rfe">
+                    <rect key="frame" x="114" y="17" width="93" height="43"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="0.80259486609999997" green="0.3335134313" blue="0.32963500709999999" alpha="1" colorSpace="calibratedRGB"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
@@ -186,6 +200,8 @@
         <image name="Profile_image" width="37" height="38"/>
         <image name="community_btn" width="37" height="38"/>
         <image name="heart_btn" width="37" height="38"/>
+        <image name="icon_50291" width="600" height="600"/>
+        <image name="logo" width="84" height="23"/>
         <image name="profile_btn" width="37" height="38"/>
     </resources>
 </document>

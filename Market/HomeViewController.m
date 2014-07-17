@@ -116,7 +116,7 @@
 }
 
 - (IBAction)onYahooFilterButton:(id)sender {
-    [UIView animateWithDuration:1 animations:^{
+    [UIView animateWithDuration:.4 animations:^{
                   self.HomeFeedScrollView.alpha = 0;
                     self.filterSelected.alpha = 1;
         CGRect frame = self.filterSelected.frame;
@@ -127,12 +127,12 @@
     self.YahooCard1.center = CGPointMake(160, 900);
     self.YahooCard2.center = CGPointMake(160, 900);
     
-    [UIView animateWithDuration:.4f delay:0 options:0 animations:^{
+    [UIView animateWithDuration:.4 delay:0 options:0 animations:^{
         self.YahooCard1.center = CGPointMake(160, 283);
         
     } completion:^(BOOL finished) {
         
-        [UIView animateWithDuration:.2f delay:.1f options:0 animations:^{
+        [UIView animateWithDuration:.2 delay:.1 options:0 animations:^{
             
             self.YahooCard2.center = CGPointMake(160, 610);
             
@@ -143,7 +143,7 @@
 }
 
 - (IBAction)onAllFilterBtn:(id)sender {
-    [UIView animateWithDuration:1 animations:^{
+    [UIView animateWithDuration:.3 animations:^{
         CGRect frame = self.filterSelected.frame;
         frame.origin.x = -9;
         self.filterSelected.frame = frame;
@@ -153,12 +153,12 @@
     self.AllCard1.center = CGPointMake(160, 900);
     self.AllCard2.center = CGPointMake(160, 900);
     
-    [UIView animateWithDuration:.4f delay:0 options:0 animations:^{
+    [UIView animateWithDuration:.4 delay:0 options:0 animations:^{
         self.AllCard1.center = CGPointMake(160, 287);
         
     } completion:^(BOOL finished) {
         
-        [UIView animateWithDuration:.2f delay:.1f options:0 animations:^{
+        [UIView animateWithDuration:.2 delay:.1 options:0 animations:^{
             
             self.AllCard2.center = CGPointMake(160, 610);
             
@@ -202,13 +202,13 @@
     
     
     
-//    UIViewController *vc = [[ProductViewController alloc] init];
-//    vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-//    [self presentViewController:vc animated:YES completion:nil];
+    UIViewController *vc = [[ProductViewController alloc] init];
+    vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    [self presentViewController:vc animated:YES completion:nil];
     
     //do it with a navigation vc
-    ProductViewController *vc = [[ProductViewController alloc] init];
-    [self.navigationController pushViewController:vc animated:YES];
+    //ProductViewController *vc = [[ProductViewController alloc] init];
+    //[self.navigationController pushViewController:vc animated:YES];
 
     
 }
