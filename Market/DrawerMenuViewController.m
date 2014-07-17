@@ -9,6 +9,7 @@
 #import "DrawerMenuViewController.h"
 #import "ProfileViewController.h"
 #import "CommunityViewController.h"
+#import "HomeViewController.h"
 
 @interface DrawerMenuViewController ()
 - (IBAction)onMainButton:(id)sender;
@@ -43,7 +44,11 @@
 
 - (IBAction)onMainButton:(id)sender {
     
-    [self dismissViewControllerAnimated:YES completion:nil];
+    //this doesn't work if the person calls the menue from another screen
+    //[self dismissViewControllerAnimated:YES completion:nil];
+    HomeViewController *homevc = [[HomeViewController alloc] init];
+    [self presentViewController:homevc animated:YES completion: nil];
+    
 
 }
 

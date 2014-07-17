@@ -7,6 +7,7 @@
 //
 
 #import "CommunityTableViewCell.h"
+#import "DrawerMenuViewController.h"
 
 @implementation CommunityTableViewCell
 
@@ -20,6 +21,15 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+- (IBAction)onDrawerView:(id)sender {
+    //load the home vc
+    //    self.drawerMenuViewController.view.frame = self.contentView.frame;
+    //    [self.contentView addSubview:self.drawerMenuViewController.view];
+    //    //unselect all the others the home button
+    //    self.drawerButton.selected = YES;
+    
+   
 }
 
 @end

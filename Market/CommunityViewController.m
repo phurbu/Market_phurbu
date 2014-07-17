@@ -7,6 +7,7 @@
 //
 
 #import "CommunityViewController.h"
+#import "DrawerMenuViewController.h"
 
 @interface CommunityViewController ()
 @property (weak, nonatomic) IBOutlet UIScrollView *CommunityScrollView;
@@ -59,5 +60,10 @@
 }
 
 - (IBAction)onMenueButton:(id)sender {
+    DrawerMenuViewController *drawervc = [[DrawerMenuViewController alloc] init];
+    drawervc.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    [self presentViewController:drawervc animated:YES completion: nil];
+    
+    
 }
 @end
