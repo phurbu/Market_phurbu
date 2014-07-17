@@ -11,7 +11,6 @@
                 <outlet property="CameraBtn" destination="aHH-nx-VUJ" id="2KE-vi-nA2"/>
                 <outlet property="HomeFeedScrollView" destination="rYN-pV-gRE" id="B4B-4o-A9w"/>
                 <outlet property="YahooCard1" destination="BJh-Xk-8Oe" id="y0N-tX-a2y"/>
-                <outlet property="YahooCard2" destination="1eb-t6-U7c" id="wi9-Fz-urg"/>
                 <outlet property="YahooScrollView" destination="smX-Bi-UNl" id="veK-gR-QfR"/>
                 <outlet property="contentView" destination="LjS-NG-AWT" id="g5v-mS-vxu"/>
                 <outlet property="drawerButton" destination="1eb-t6-U7c" id="ryR-Hm-8kR"/>

@@ -90,6 +90,7 @@
     [self.LoadingIndicator stopAnimating];
     if ([[self.UsernameField.text lowercaseString] isEqualToString:@"1"] && [[self.PasswordField.text lowercaseString] isEqualToString:@"1"]) {
         
+        
         UIViewController *homeviewcontroller = [[HomeViewController alloc] init];
         homeviewcontroller.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
         

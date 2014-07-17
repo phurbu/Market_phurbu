@@ -66,6 +66,9 @@
 //    [self.view addSubview:menuDrawer];
     
     
+    
+    
+    
     self.HomeFeedScrollView.
     contentSize =
     CGSizeMake(320,1105);
@@ -193,9 +196,19 @@
 
 - (IBAction)onTapProduct1:(UITapGestureRecognizer *)sender {
     NSLog(@"TAPPED 1");
-    UIViewController *vc = [[ProductViewController alloc] init];
-    vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-    [self presentViewController:vc animated:YES completion:nil];
+    
+    // Create the navigation controller
+
+    
+    
+    
+//    UIViewController *vc = [[ProductViewController alloc] init];
+//    vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+//    [self presentViewController:vc animated:YES completion:nil];
+    
+    //do it with a navigation vc
+    ProductViewController *vc = [[ProductViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 
     
 }

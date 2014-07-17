@@ -32,7 +32,13 @@
     //Daniel's Community VC is here:
     //CommunityViewController *vc = [[CommunityViewController alloc] init];
     //UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    //Adding Navigation Controller here:
+//    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    
     self.window.rootViewController = vc;
+//    self.window.rootViewController = navigationController;
 
     
     self.window.backgroundColor = [UIColor whiteColor];
