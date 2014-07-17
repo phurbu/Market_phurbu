@@ -61,6 +61,9 @@
                     <state key="normal" image="community_btn">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="onCommunityButton:" destination="-1" eventType="touchUpInside" id="War-OP-gSb"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pql-81-NQD">
                     <rect key="frame" x="13" y="265" width="37" height="38"/>

@@ -8,11 +8,13 @@
 
 #import "DrawerMenuViewController.h"
 #import "ProfileViewController.h"
+#import "CommunityViewController.h"
 
 @interface DrawerMenuViewController ()
 - (IBAction)onMainButton:(id)sender;
 - (IBAction)onProfileButton:(id)sender;
 @property (strong, nonatomic) ProfileViewController * profileViewController;
+- (IBAction)onCommunityButton:(id)sender;
 
 @end
 
@@ -49,5 +51,9 @@
     ProfileViewController *profilevc = [[ProfileViewController alloc] init];
     [self presentViewController:profilevc animated:YES completion: nil];
     
+}
+- (IBAction)onCommunityButton:(id)sender {
+    CommunityViewController *profilevc = [[CommunityViewController alloc] init];
+    [self presentViewController:profilevc animated:YES completion: nil];
 }
 @end
