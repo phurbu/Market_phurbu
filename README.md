@@ -21,5 +21,5 @@ Market [iOS App]
 
 #### Gif demo
   
-  ![Alt text](https://github.com/phurbu/Market_phurbu/blob/master/marketDemo.gif "Market Demo")
+  ![Alt text](https://github.com/phurbu/Market_phurbu/blob/master/marketDemo_2.gif "Market Demo")
 
