@@ -19,3 +19,6 @@ Market [iOS App]
  * Anyone who is part of a trusted/validated community.  School, Work….etc 
 
 
+#### Gif demo
+  You can find the GIF demo here.
+
